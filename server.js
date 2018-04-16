@@ -11,6 +11,7 @@ var schema = buildSchema(`
         firstName: String
         lastName: String
         location: Location
+        age: Int
     }
     type Location {
         address: String
@@ -63,8 +64,8 @@ var getUser = function(args) {
 }
 
 var getUsers = function(args) {
-    if (args.location.country) {
-        var country = args.location.country;
+    if (args.country) {
+        var country = args.country;
         return data.filter(user => user.location.country == country);
     } else {
         return data;
