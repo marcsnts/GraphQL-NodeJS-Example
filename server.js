@@ -25,6 +25,7 @@ var data = [
         id: 1,
         firstName: 'Marc',
         lastName: 'Santos',
+        age: 21,
         location: {
             address: '1234 Fake Street E',
             city: 'Toronto',
@@ -36,6 +37,7 @@ var data = [
         id: 2,
         firstName: 'Filip',
         lastName: 'Maj',
+        age: 27,
         location: {
             address: '4512 Not Real Street W',
             city: 'Toronto',
@@ -47,6 +49,7 @@ var data = [
         id: 3,
         firstName: 'Bob',
         lastName: 'Builder',
+        age: 34,
         location: {
             address: 'Not Canadian Street',
             city: 'Houston',
